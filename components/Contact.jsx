@@ -28,7 +28,7 @@ const Contact = () => {
                 <div>
                     <h2 className='py-2'>Ravi kumar</h2>
                     <p>Front-End Developer</p>
-                    <p className='py-4'>I am available for internships. Contact me let's talk</p>
+                    <p className='py-4'>I am available for internships. Contact me let&apos;s talk</p>
                 </div>
 
 
@@ -36,18 +36,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me.</p>
 
         <div className='flex items-center justify-between py-4'>
-                {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaLinkedinIn/>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaGithub/>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail/>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
-                </div> */}
+              
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <a
                     href='https://www.linkedin.com/in/ravi-kumaar/'
@@ -83,19 +72,6 @@ const Contact = () => {
          </div>
 
 
-         {/* right side */}
-
-            {/* <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
-
-                <div className='p-4'>
-                    <form action="">
-                        <div className='grid md:grid-'>
-
-                        </div>
-                    </form>
-
-                </div>
-            </div> */}
          
 
 
