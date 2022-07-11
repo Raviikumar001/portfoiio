@@ -52,14 +52,14 @@ const Navbar = () => {
     style={{ backgroundColor: `${navbg}`}}
     className={shadow ? 'fixed w-full h-20 shadow-xl z-100': 'fixed w-full h-20  z-10'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-     {/* <Link href='/'>
+     <Link href='/'>
      <Image 
      className='cursor-pointer'
       src="/../public/assets/navlogo.png"
        alt='/' 
        width='110' 
        height='100' /> 
-     </Link> */}
+     </Link>
 
      
   
@@ -96,13 +96,13 @@ const Navbar = () => {
          
          <div>
           <div className='flex w-full items-center justify-between'>
-            {/* <Link href='/'>
+            <Link href='/'>
             <Image 
             src="/../public/assets/navlogo.png"
             width='110' 
             height='100'
              alt='/'/>
-            </Link> */}
+            </Link>
            
              <div  onClick={handleNav}className='rounded-full shadow-lg  shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose />
