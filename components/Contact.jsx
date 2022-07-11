@@ -28,7 +28,7 @@ const Contact = () => {
                 <div>
                     <h2 className='py-2'>Ravi kumar</h2>
                     <p>Front-End Developer</p>
-                    <p className='py-4'>I am available for internships. Contact me let&apos;s talk</p>
+                    <p className='py-4'>I am available for internships. Contact me let us talk</p>
                 </div>
 
 
