@@ -140,18 +140,30 @@ const Navbar = () => {
             <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
           </div>
           <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                <FaLinkedinIn  /> 
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                <FaGithub  /> 
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                <AiOutlineMail  /> 
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                <BsFillPersonLinesFill  /> 
-            </div>
+          <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a
+                    href='https://www.linkedin.com/in/ravi-kumaar/'
+                    target='_blank'
+                    rel='noreferrer'
+                    > 
+
+                    <FaLinkedinIn/>
+                    </a>
+                </div>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a
+                    href='https://github.com/Raviikumar001'
+                    target='_blank'
+                    rel='noreferrer'
+                    > 
+                    <FaGithub/>
+                    </a>
+                </div>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href="mailto:kumarraviabhi007@gmail.com?subject=Mail from our Website">
+                    <AiOutlineMail/>
+                    </a>
+                </div>
 
           </div>
           
