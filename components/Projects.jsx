@@ -17,11 +17,11 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
 
-           <ProjectItems title='Github Battle' image={Project1} projectUrl='/GitbhubBattle' />
+           <ProjectItems title='Github Battle' image={Project1} projectUrl='/gitbhubBattle' />
 
-           <ProjectItems title='Waves Music' image={Project2} projectUrl='/GitbhubBattle' />
+           <ProjectItems title='Waves Music' image={Project2} projectUrl='/waves' />
 
-           <ProjectItems title='Blog' image={Project3} projectUrl='/GitbhubBattle' />
+           <ProjectItems title='Blog' image={Project3} projectUrl='/blog' />
 
 
 
