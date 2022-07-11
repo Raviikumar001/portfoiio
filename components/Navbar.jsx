@@ -4,6 +4,8 @@ import Link from 'next/link'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import MdLayers from 'react-icons/lib/md/layers';
+
 
 import { useRouter } from 'next/router'
 const Navbar = () => {
