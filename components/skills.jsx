@@ -1,5 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import html from '../public/assets/skills/html.png'
+
+import css from '../public/assets/skills/css.png'
+import js from '../public/assets/skills/javascript.png'
+import git from '../public/assets/skills/github1.png'
+import node from '../public/assets/skills/node.png'
+import reat from '../public/assets/skills/react.png'
+
 
 const Skills = () => {
   return (
@@ -13,7 +21,7 @@ const Skills = () => {
 
                 <div className='grid grid-cols-2 justify-center items-center '>
                     <div className='m-auto'>
-                    <Image  src='/../public/assets/skills/html.png' width='64px' height='64px' alt='' />
+                    <Image  src={html} width='64px' height='64px' alt='' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>HTML</h3>
@@ -27,7 +35,7 @@ const Skills = () => {
 
                 <div className='grid grid-cols-2 justify-center items-center '>
                     <div className='m-auto'>
-                    <Image  src='/../public/assets/skills/css.png' width='64px' height='64px' alt='' />
+                    <Image  src={css} width='64px' height='64px' alt='' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>CSS</h3>
@@ -41,7 +49,7 @@ const Skills = () => {
 
                 <div className='grid grid-cols-2 justify-center items-center '>
                     <div className='m-auto'>
-                    <Image  src='/../public/assets/skills/javascript.png' width='64px' height='64px' alt='' />
+                    <Image  src={js} width='64px' height='64px' alt='' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>JavaScript</h3>
@@ -55,7 +63,7 @@ const Skills = () => {
 
                 <div className='grid grid-cols-2 justify-center items-center '>
                     <div className='m-auto'>
-                    <Image  src='/../public/assets/skills/github1.png' width='64px' height='64px' alt='' />
+                    <Image  src={git} width='64px' height='64px' alt='' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>Github</h3>
@@ -69,7 +77,7 @@ const Skills = () => {
 
                 <div className='grid grid-cols-2 justify-center items-center '>
                     <div className='m-auto'>
-                    <Image  src='/../public/assets/skills/node.png' width='64px' height='64px' alt='' />
+                    <Image  src={node} width='64px' height='64px' alt='' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>Node Js</h3>
@@ -84,7 +92,7 @@ const Skills = () => {
 
                 <div className='grid grid-cols-2 justify-center items-center '>
                     <div className='m-auto'>
-                    <Image  src='/../public/assets/skills/react.png' width='64px' height='64px' alt='' />
+                    <Image  src={reat} width='64px' height='64px' alt='' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>React</h3>
