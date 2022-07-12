@@ -4,7 +4,8 @@ import Link from 'next/link'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import MdLayers from 'react-icons/lib/md/layers';
+
+import navlogo from '../public/assets/navlogo.png'
 
 
 import { useRouter } from 'next/router'
@@ -57,7 +58,7 @@ const Navbar = () => {
      <Link href='/'>
      <Image 
      className='cursor-pointer'
-      src="/../public/assets/navlogo.png"
+      src={navlogo}
        alt='/' 
        width='110' 
        height='100' /> 
